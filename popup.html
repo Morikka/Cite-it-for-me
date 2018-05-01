@@ -1,15 +1,25 @@
   <!DOCTYPE html>
   <html>
     <head>
-      <style>
+<!--       <style>
         button {
-          height: 30px;
-          width: 30px;
+          height: 20px;
+          width: 60px;
           outline: none;
         }
-      </style>
+      </style> -->
     </head>
     <body>
-      Hello World！
+      <form>
+      Author : <input id="author">
+      Title : <input id="title">
+      Month : <input id="month">
+      Year : <input id="year">
+      URL : <input id="url">
+      <br>
+      </form>
+      <textarea id="result">After input, please click generate button</textarea>
+      <button id="generate">Generate</button>
     </body>
+    <script src="js/main.js"></script>
   </html>

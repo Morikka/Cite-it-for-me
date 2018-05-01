@@ -11,5 +11,9 @@
       "default_icon": {
       }
     },
+  "permissions": [
+    "tabs",
+    "clipboardWrite"
+],
   "icons": { "16": "16.jpg" }
 }
