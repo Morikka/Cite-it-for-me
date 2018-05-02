@@ -15,5 +15,11 @@
     "tabs",
     "clipboardWrite"
 ],
-  "icons": { "16": "16.jpg" }
+  "icons": {
+    "16": "images/icon-blue.png",
+    "32": "images/icon-blue-32.png",
+    "64": "images/icon-blue-64.png",
+    "1128": "images/icon-blue-128.png"
+
+   }
 }
